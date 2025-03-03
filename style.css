@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+#auth-section, #project-section, #issue-section, #user-info {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], textarea {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#project-list div, #issue-list div {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#project-list div:hover, #issue-list div:hover {
+    background-color: #f9f9f9;
+}
